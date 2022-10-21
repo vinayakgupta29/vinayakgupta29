@@ -42,7 +42,7 @@ My name is **Vinyak Gupta** and I am a junior pursuing my Bachelor's in Computer
 
 ## <📈 GitHub Stats >  
 
-![](https://activity-graph.herokuapp.com/graph?username=vinayakgupta29&theme=xcode)
+<!-- Contributor Graph-1 : https://activity-graph.herokuapp.com/graph?username=vinayakgupta29&theme=xcode  -->
 ![](https://activity-graph.herokuapp.com/graph?username=vinayakgupta29&theme=react-dark&hide_border=true)
 <!-- ![](https://github-readme-stats.vercel.app/api?username=vinayakgupta29&show_icons=true&theme=tokyonight)  -->
 <p align="center">
