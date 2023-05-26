@@ -35,7 +35,6 @@ My name is **Vinyak Gupta** and I am a junior pursuing my Bachelor's in Computer
 
 ![Flutter](https://img.shields.io/badge/-FLUTTER-blue)
 ![Dart](https://img.shields.io/badge/-DART-yellow)
-![Java](https://img.shields.io/badge/-java-red?style=for-the-badge&logo=java&logoColor=black)
 ![Python](https://img.shields.io/badge/-Python-white?style=for-the-badge&logo=python&logoColor=4B8BBE)
 ![Git](https://img.shields.io/badge/-git-F1502F?style=for-the-badge&logo=git&logoColor=white)
 
