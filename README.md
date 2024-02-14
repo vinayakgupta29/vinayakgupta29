@@ -23,9 +23,10 @@ My name is **Vinyak Gupta** and I am a junior pursuing my Bachelor's in Computer
 <h1 align = "center">
   
   
-</a> <a href="https://www.linkedin.com/in/vinayak-gupta-70a808202/" target="_blank"><img alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
-
-</a>
+<span style="display: flex; flex-direction: row;">
+  <a href="https://www.linkedin.com/in/vinayak-gupta-70a8202/" target="_blank"><img alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://medium.com/@vinayakg236/" target="_blank"><img alt="Medium" title="Medium" src="https://img.shields.io/badge/Medium-%23000000.svg?&style=for-the-badge&logo=medium&logoColor=white"/></a>
+</span>
 
 </h1>
 
@@ -33,10 +34,11 @@ My name is **Vinyak Gupta** and I am a junior pursuing my Bachelor's in Computer
 ## <🔩 ToolBox>  
 <h1 align = "center">
 
-![Flutter](https://img.shields.io/badge/-FLUTTER-blue)
-![Dart](https://img.shields.io/badge/-DART-yellow)
+![Flutter](https://img.shields.io/badge/-FLUTTER-blue?logo=flutter)
+![Dart](https://img.shields.io/badge/-DART-white?logo=dart&logoColor=blue)
 ![Python](https://img.shields.io/badge/-Python-white?style=for-the-badge&logo=python&logoColor=4B8BBE)
 ![Git](https://img.shields.io/badge/-git-F1502F?style=for-the-badge&logo=git&logoColor=white)
+![Node.Js](https://img.shields.io/badge/-node-000000?style=for-the-badge&logo=node.js&logoColor=green)
 
 
 ## <📈 GitHub Stats >  
