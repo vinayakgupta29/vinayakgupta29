@@ -26,6 +26,9 @@ My name is **Vinyak Gupta** and I am a junior pursuing my Bachelor's in Computer
 <span style="display: flex; flex-direction: row;">
   <a href="https://www.linkedin.com/in/vinayak-gupta-70a8202/" target="_blank"><img alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://medium.com/@vinayakg236/" target="_blank"><img alt="Medium" title="Medium" src="https://img.shields.io/badge/Medium-%23000000.svg?&style=for-the-badge&logo=medium&logoColor=white"/></a>
+  <a href="https://play.google.com/store/apps/developer?id=Vins+Dev" target="_blank"><img alt="Medium" title="Medium" src="https://img.shields.io/badge/Google%20Play%20Store-%234CAF50.svg?&style=for-the-badge&logo=google-play&logoColor=white"/></a>
+
+ 
 </span>
 
 </h1>
