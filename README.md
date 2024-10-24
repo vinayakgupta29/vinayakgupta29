@@ -19,7 +19,8 @@
 
 ## <👨‍💻 About Me>
 
-My name is **Vinyak Gupta** and I am in my senior year pursuing my Bachelor's in Computer Science & Engineering from India 🎓 &nbsp;&nbsp;I am a **Android Development Enthusiast** & also passionate about **Open Source** 💻  &nbsp;Believe in **Learning & Empowering Others** <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40"> 
+My name is **Vinyak Gupta** and I am in my senior year pursuing my Bachelor's in Computer Science & Engineering from India 🎓 &nbsp;&nbsp;I am a **Android Development Enthusiast** & also passionate about **Open Source** 💻  &nbsp;Believe in **Learning & Empowering Others** <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40">  
+[Download My Resume](https://raw.githubusercontent.com/vinayakgupta29/vinayakgupta29/blob/main/vinayak_gupta_resume.pdf)
 <h1 align = "center">
   
   
