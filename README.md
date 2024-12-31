@@ -19,7 +19,14 @@
 
 ## <👨‍💻 About Me>
 
-My name is **Vinyak Gupta** and I am in my senior year pursuing my Bachelor's in Computer Science & Engineering from India 🎓 &nbsp;&nbsp;I am a **Android Development Enthusiast** & also passionate about **Open Source** 💻  &nbsp;Believe in **Learning & Empowering Others** <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40">  
+A Mathematics student and a programmer trying to get through life whilst doing some coding here and there. 🎓 &nbsp;&nbsp;
+- I am a Full Stack Developer primarily focusing on Android(Flutter) and Backends in REST API's primanrily in Node.JS and GO   &nbsp;
+- Believe in **Learning & Empowering Minds** <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40">
+- Trying my hands in Cryptography and distributed systems for now. 🤖
+- Always eager to find and learn new things.
+- 🚩 Experienced in leading and mentoring teams, fostering collaboration, and ensuring project success with strong leadership and effective communication.
+
+
 [Download My Resume](https://raw.githubusercontent.com/vinayakgupta29/vinayakgupta29/main/vinayak_gupta_resume.pdf)
 <h1 align = "center">
   
