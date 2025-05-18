@@ -3,14 +3,14 @@
 </div>
 
 <h3 align="center">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to my profile
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Greetings to my Shire Folks...
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
 </h3>
 
 <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
 <p align="center">
 <!--   <a href="https://github.com/DenverCoder1/readme-typing-svg"> -->
-    <img src="https://readme-typing-svg.herokuapp.com?color=E22FE4&width=380&height=45&lines=Open-Source+Enthusiast;Always+Learning+New+Things;Empowering+Others;Nice+To+Meet+You+...&center=true"></a>
+    <img src="https://readme-typing-svg.herokuapp.com?color=E22FE4&width=380&height=45&lines=Open-Source+Enthusiast;Always+Learning+New+Things;Empowering+Others;You+are+late...;Or+perhaps+you+are+early...;A+wizard+is+never+sure...&center=true"></a>
 
 </p>
 
@@ -34,7 +34,7 @@ A Mathematics student and a programmer trying to get through life whilst doing s
 <span style="display: flex; flex-direction: row;">
   <a href="https://www.linkedin.com/in/vinayak-gupta-70a8202/" target="_blank"><img alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://medium.com/@vinayakg236/" target="_blank"><img alt="Medium" title="Medium" src="https://img.shields.io/badge/Medium-%23000000.svg?&style=for-the-badge&logo=medium&logoColor=white"/></a>
-  <a href="https://play.google.com/store/apps/developer?id=Vins+Dev" target="_blank"><img alt="Medium" title="Medium" src="https://img.shields.io/badge/Google%20Play%20Store-%234CAF50.svg?&style=for-the-badge&logo=google-play&logoColor=white"/></a>
+  <a href="https://play.google.com/store/apps/developer?id=Vins+Dev" target="_blank"><img alt="Play Store" title="Medium" src="https://img.shields.io/badge/Google%20Play%20Store-%234CAF50.svg?&style=for-the-badge&logo=google-play&logoColor=white"/></a>
 
  
 </span>
@@ -63,11 +63,12 @@ A Mathematics student and a programmer trying to get through life whilst doing s
 <!--   <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=vinayakgupta29&theme=algolia&hide_border=true" /> -->
 </p>
 
-<!-- 
+
 ## <🙋‍♂️ Connect with me>
 <p>
   
-</a> <a href="https://www.linkedin.com/in/v/" target="_blank"><img alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a> <a href="mailto:vinayakg236@gmail.com" target="_blank"><img alt="E-Mail" title="E-mail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 
 </a>
+
 </p>  
