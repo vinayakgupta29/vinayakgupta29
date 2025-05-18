@@ -62,7 +62,7 @@ A Mathematics student and a programmer trying to get through life whilst doing s
 ## <🙋‍♂️ Connect with me>
 
 <p>
-  <div style="display:flex; gap:80px">
+  <div style="display:flex; gap:800px">
 <a href="mailto:vinayakg236@gmail.com" target="_blank"><img alt="E-Mail" title="E-mail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 
 </a>
