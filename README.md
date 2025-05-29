@@ -1,4 +1,8 @@
-<div>
+<!--- <div align="center">
+<img align="center" src="./assets/backgroung.png" height="300px">
+</div> --->
+
+  <div>
 <img align="center" src="https://i.imgur.com/4ASafy0.png">
 </div>
 
@@ -53,11 +57,13 @@ A Mathematics student and a programmer trying to get through life whilst doing s
 <!-- Contributor Graph-1 : https://activity-graph.herokuapp.com/graph?username=vinayakgupta29&theme=xcode  -->
 ![](https://activity-graph.herokuapp.com/graph?username=vinayakgupta29&theme=react-dark&hide_border=true)
 <!-- ![](https://github-readme-stats.vercel.app/api?username=vinayakgupta29&show_icons=true&theme=tokyonight)  -->
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vinayakgupta29&layout=compact&langs_count=10&theme=transparent&count_private=false&show_icons=true&title_color=8F979C&text_color=8F979C&icon_color=8F979C&hide_border=true&count_private=true)
 <p align="center">
  
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=vinayakgupta29&show_icons=true&theme=algolia&hide_border=true" />
 <!--   <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=vinayakgupta29&theme=algolia&hide_border=true" /> -->
 </p>
+
 
 ## <🙋‍♂️ Connect with me>
 
@@ -66,6 +72,5 @@ A Mathematics student and a programmer trying to get through life whilst doing s
 <a href="mailto:vinayakg236@gmail.com" target="_blank"><img alt="E-Mail" title="E-mail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 
 </a>
-<img src="./assets/backgroung.png" height="80px">
 </div>
 </p>  
