@@ -35,7 +35,10 @@ A Mathematics student and a programmer trying to get through life whilst doing s
   
 <span style="display: flex; flex-direction: row;">
   <a href="https://www.linkedin.com/in/vinayak-gupta-70a8202/" target="_blank"><img alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://medium.com/@vinayakg236/" target="_blank"><img alt="Medium" title="Medium" src="https://img.shields.io/badge/Medium-%23000000.svg?&style=for-the-badge&logo=medium&logoColor=white"/></a>
+  <a href="https://vinayakgupta29.github.io/blogs" target="_blank">
+  <img alt="Blog" title="Visit my Blog" src="https://img.shields.io/badge/Abhivyakti-%2312100E.svg?&style=for-the-badge&logo=githubpages&logoColor=white"/>
+</a>
+
   <a href="https://play.google.com/store/apps/developer?id=Vins+Dev" target="_blank"><img alt="Play Store" title="Medium" src="https://img.shields.io/badge/Google%20Play%20Store-%234CAF50.svg?&style=for-the-badge&logo=google-play&logoColor=white"/></a>
 
 </span>
