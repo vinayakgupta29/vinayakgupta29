@@ -58,13 +58,12 @@ A Physics student and a programmer trying to get through life whilst doing some 
 
 ## <📈 GitHub Stats >  
 
-<!-- Contributor Graph-1 : https://activity-graph.herokuapp.com/graph?username=vinayakgupta29&theme=xcode  -->
-![](https://activity-graph.herokuapp.com/graph?username=vinayakgupta29&theme=react-dark&hide_border=true)
-<!-- ![](https://github-readme-stats.vercel.app/api?username=vinayakgupta29&show_icons=true&theme=tokyonight)  -->
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vinayakgupta29&layout=compact&langs_count=10&theme=transparent&count_private=false&show_icons=true&title_color=8F979C&text_color=8F979C&icon_color=8F979C&hide_border=true&count_private=true)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=vinayakgupta29&theme=react-dark&hide_border=true)
+
 <p align="center">
- 
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=vinayakgupta29&show_icons=true&theme=algolia&hide_border=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vinayakgupta29&layout=compact&theme=algolia&hide_border=true" />
+</p>
 <!--   <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=vinayakgupta29&theme=algolia&hide_border=true" /> -->
 </p>
 
