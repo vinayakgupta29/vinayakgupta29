@@ -22,16 +22,20 @@
 
 ## <👨‍💻 About Me>
 
-A Physics student and a programmer trying to get through life whilst doing some coding here and there. 🎓 &nbsp;&nbsp;
+Software Engineer with ~3 years of experience building backend systems, distributed infrastructure, and cross-platform applications. I enjoy working close to the fundamentals of computing—from database internals and compiler design to cryptography and low-latency systems.
 
-- I am a Full Stack Developer primarily focusing on Android(Flutter) and Backends in REST API's primarily in Node.JS and GO   &nbsp;
-- Believe in **Learning & Empowering Minds** <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40">
-- Trying my hands in Cryptography and distributed systems for now. 🤖
-- JLPT in progress
-- Always eager to find and learn new things. 📚
-- 🚩 Experienced in leading and mentoring teams, fostering collaboration, and ensuring project success with strong leadership and effective communication.
+* ⚙️ Building scalable backend systems with **Go, TypeScript, Node.js, PostgreSQL, and Python**.
+* 🏗️ Experienced with microservices, REST APIs, event-driven systems, and containerized deployments.
+* 🔐 Interested in **Cryptography, Key Management Systems, Distributed Systems, and Programming Languages**.
+* 🖥️ Built systems ranging from Flutter applications and Linux desktop software to industrial automation and hardware-control loops.
+* 📚 Strong interest in theoretical computer science, compilers, parsers, and mathematical modeling.
+* 🌏 Exploring Japanese language and culture (JLPT in progress).
+* 🚩 Experienced in leading teams, mentoring developers, and coordinating cross-functional projects.
+* 🚀 Always learning and building.
 
-[Download My Resume](https://raw.githubusercontent.com/vinayakgupta29/vinayakgupta29/main/vinayak_gupta_resume.pdf)
+[Download My CV](https://raw.githubusercontent.com/vinayakgupta29/portfolio/main/vinayak_gupta_cv.pdf)
+[Download My Resume](https://raw.githubusercontent.com/vinayakgupta29/portfolio/main/vinayak_gupta_resume_AI_centric.pdf)
+
 <h1 align = "center">
   
 <span style="display: flex; flex-direction: row;">
@@ -46,15 +50,45 @@ A Physics student and a programmer trying to get through life whilst doing some 
 
 </h1>
 
-## <🔩 ToolBox>  
+## <🔩 ToolBox>
 
-<h1 align = "center">
+### Languages
 
-![Flutter](https://img.shields.io/badge/-FLUTTER-blue?logo=flutter)
-![Dart](https://img.shields.io/badge/-DART-white?logo=dart&logoColor=blue)
-![Python](https://img.shields.io/badge/-Python-white?style=for-the-badge&logo=python&logoColor=4B8BBE)
-![Git](https://img.shields.io/badge/-git-F1502F?style=for-the-badge&logo=git&logoColor=white)
-![Node.Js](https://img.shields.io/badge/-node-000000?style=for-the-badge&logo=node.js&logoColor=green)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge\&logo=go\&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-black?style=for-the-badge\&logo=rust)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge\&logo=cplusplus)
+
+### Backend & Databases
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)
+![Go Echo](https://img.shields.io/badge/Echo_Framework-00ADD8?style=for-the-badge)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge\&logo=django)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge\&logo=postgresql)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge\&logo=mongodb)
+
+### Client & Systems
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge\&logo=flutter)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge\&logo=react)
+![Tauri](https://img.shields.io/badge/Tauri-FFC131?style=for-the-badge\&logo=tauri)
+
+### DevOps & Infrastructure
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge\&logo=amazonaws)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git)
+
+### Interests
+
+* Distributed Systems
+* Cryptography
+* Compiler Design
+* Programming Languages
+* Databases & Storage Engines
+* High-Performance Computing
 
 ## <📈 GitHub Stats >  
 
