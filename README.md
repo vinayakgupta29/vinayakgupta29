@@ -96,7 +96,7 @@ Software Engineer with ~3 years of experience building backend systems, distribu
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=vinayakgupta29&theme=github-compact)](https://github.com/Ashutosh00710/github-readme-activity-graph)
 <p align="center">
   <img src="./metrics.svg" />
-  ![lang_stats](./language-metrics.svg) 
+  <img src="./language-metrics.svg"> 
 
   <!-- <img src="https://metrics.lecoq.io/vinayakgupta29" /> -->
   
