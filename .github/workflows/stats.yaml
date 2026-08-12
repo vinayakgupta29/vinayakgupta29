@@ -25,5 +25,6 @@ jobs:
           plugin_languages_ignored: css
           plugin_languages_sections: most-used
           plugin_languages_details: bytes-size, percentage
+          plugin_languages_analysis: true
 
           filename: metrics.svg
