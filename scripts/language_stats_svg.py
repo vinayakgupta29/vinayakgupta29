@@ -27,6 +27,10 @@ IGNORE = {
     if language.strip()
 }
 
+SVG_FILE = os.environ.get(
+    "SVG_FILE",
+    "language-metrics.svg"
+)
 
 HEADERS = {
     "Authorization": f"Bearer {TOKEN}",
@@ -136,12 +140,12 @@ def fetch_from_github():
     }
 
 
-    # with open(CACHE_FILE, "w", encoding="utf-8") as f:
-    #     json.dump(
-    #         cache,
-    #         f,
-    #         indent=2,
-    #     )
+    with open(CACHE_FILE, "w", encoding="utf-8") as f:
+        json.dump(
+            cache,
+            f,
+            indent=2,
+        )
 
 
     print(f"\nSaved cache to: {CACHE_FILE}")
@@ -154,13 +158,13 @@ def fetch_from_github():
 # ============================================================
 
 # cache = load_cache()
-
+#
 # if cache is not None:
 #
 #     print(f"Using cached data: {CACHE_FILE}")
 #
 # else:
-#
+
 
 cache = fetch_from_github()
 
@@ -170,7 +174,7 @@ cache = fetch_from_github()
 # ============================================================
 
 languages = defaultdict(int)
-
+all_languages = set()
 for repo in cache["repositories"]:
 
     # Ignore forks
@@ -178,6 +182,8 @@ for repo in cache["repositories"]:
         continue
 
     for language, byte_count in repo["languages"].items():
+
+        all_languages.add(language.lower()) # For count only
 
         # Ignore configured languages
         if language.lower() in IGNORE:
@@ -195,7 +201,9 @@ languages = sorted(
     key=lambda x: x[1],
     reverse=True,
 )
-
+language_count = len(all_languages)
+print(languages)
+print(language_count)
 languages = languages[:LANGUAGE_LIMIT]
 
 total = sum(
@@ -246,140 +254,210 @@ print("==========================================")
 
 
 # ============================================================
-# Minimal lowlighter/metrics-style SVG
+# SVG generation
 # ============================================================
 
 SVG_WIDTH = 576
-ROW_HEIGHT = 23
 
 COLUMNS = 2
 COLUMN_WIDTH = 270
 COLUMN_GAP = 12
 
-HEADER_HEIGHT = 65
+ROW_HEIGHT = 23
+
+# Layout:
+#
+#   24 languages
+#
+#   [ language graph ]
+#
+#        Most used languages
+#
+#   language grid
+#
+
+LANGUAGE_COUNT_HEIGHT = 28
+GRAPH_HEIGHT = 8
+GRAPH_GAP = 10
+TITLE_HEIGHT = 30
+
+HEADER_HEIGHT = (
+    LANGUAGE_COUNT_HEIGHT
+    + GRAPH_HEIGHT
+    + GRAPH_GAP
+    + TITLE_HEIGHT
+)
+
 PADDING_X = 12
+PADDING_TOP = 8
+PADDING_BOTTOM = 8
 
-ROWS = (len(languages) + COLUMNS - 1) // COLUMNS
+ROWS = (
+    len(languages) + COLUMNS - 1
+) // COLUMNS
 
-SVG_HEIGHT = HEADER_HEIGHT + (ROWS * ROW_HEIGHT) + 8
+SVG_HEIGHT = (
+    PADDING_TOP
+    + HEADER_HEIGHT
+    + (ROWS * ROW_HEIGHT)
+    + PADDING_BOTTOM
+)
 
 
-BACKGROUND = "#000000"
+# ------------------------------------------------------------
+# Colors
+# ------------------------------------------------------------
+
 TEXT = "#c9d1d9"
 MUTED = "#8b949e"
 TITLE = "#0099ff"
 
+BAR_X = PADDING_X
+BAR_Y = PADDING_TOP + LANGUAGE_COUNT_HEIGHT + 5
+BAR_WIDTH = SVG_WIDTH - (PADDING_X * 2)
+BAR_HEIGHT = GRAPH_HEIGHT
+BAR_RADIUS = 4
+
+
+# ------------------------------------------------------------
+# Language colors
+# ------------------------------------------------------------
 
 LANGUAGE_COLORS = {
-    "c++": "#f34b7d",
     "c": "#555555",
-    "python": "#3572A5",
+    "c++": "#f34b7d",
+    "cmake": "#DA3434",
+    "css": "#563D7C",
     "dart": "#00B4AB",
-    "rust": "#dea584",
-    "javascript": "#f1e05a",
-    "typescript": "#3178c6",
     "go": "#00ADD8",
-    "qml": "#44a51c",
-    "swift": "#F05138",
-    "zig": "#ec915c",
-    "shell": "#89e051",
-    "ocaml": "#3be133",
+    "haskell": "#5E5086",
+    "html": "#E34C26",
     "java": "#b07219",
+    "javascript": "#f1e05a",
     "kotlin": "#A97BFF",
+    "lisp": "#3FB68B",
     "lua": "#000080",
+    "objective-c": "#438eff",
+    "ocaml": "#3be133",
+    "python": "#3572A5",
+    "qml": "#44a51c",
+    "ruby": "#701516",
+    "rust": "#dea584",
+    "scss": "#c6538c",
+    "shell": "#89e051",
+    "swift": "#F05138",
+    "typescript": "#3178c6",
+    "zig": "#ec915c",
 }
 
-
-def format_bytes_svg(value):
-    if value >= 1024 * 1024:
-        return f"{value / (1024 * 1024):.2f} MB"
-
-    if value >= 1024:
-        return f"{value / 1024:.0f} KB"
-
-    return f"{value} B"
-
+# ------------------------------------------------------------
+# SVG
+# ------------------------------------------------------------
 
 svg = []
 
 svg.append(
-    f'<svg xmlns="http://www.w3.org/2000/svg" '
-    f'width="{SVG_WIDTH}" height="{SVG_HEIGHT}" '
-    f'viewBox="0 0 {SVG_WIDTH} {SVG_HEIGHT}">'
+    f'''
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="{SVG_WIDTH}"
+        height="{SVG_HEIGHT}"
+        viewBox="0 0 {SVG_WIDTH} {SVG_HEIGHT}">
+    '''
+)
+
+
+# ------------------------------------------------------------
+# Fonts
+# ------------------------------------------------------------
+
+svg.append(
+    f"""
+    <style>
+
+    .language-count {{
+        font-family:
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Helvetica,
+            Arial,
+            sans-serif;
+
+        font-size: 14px;
+        fill: {TITLE};
+        font-weight: 600;
+    }}
+
+    .title {{
+        font-family:
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Helvetica,
+            Arial,
+            sans-serif;
+
+        font-size: 16px;
+        font-weight: 600;
+    }}
+
+    .language {{
+        font-family:
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Helvetica,
+            Arial,
+            sans-serif;
+
+        font-size: 13px;
+        font-weight: 600;
+    }}
+
+    .value {{
+        font-family:
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Helvetica,
+            Arial,
+            sans-serif;
+
+        font-size: 12px;
+    }}
+
+    </style>
+    """
+)
+
+# ============================================================
+# Language count
+# ============================================================
+
+svg.append(
+    f'''
+    <text
+        x="{PADDING_X}"
+        y="{PADDING_TOP + 15}"
+        class="language-count"
+        fill="{TEXT}">
+        {language_count} languages
+    </text>
+    '''
 )
 
 
 # ============================================================
-# Font styling
+# Stacked language graph
 # ============================================================
-
-svg.append("""
-<style>
-
-.title {
-    font-family:
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Helvetica,
-        Arial,
-        sans-serif;
-
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.language {
-    font-family:
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Helvetica,
-        Arial,
-        sans-serif;
-
-    font-size: 13px;
-    font-weight: 600;
-}
-
-.value {
-    font-family:
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Helvetica,
-        Arial,
-        sans-serif;
-
-    font-size: 12px;
-}
-
-</style>
-""")
-
-
-# ============================================================
-# Background
-# ============================================================
-
-# svg.append(
-#     f'<rect width="100%" height="100%" fill="{BACKGROUND}"/>'
-# )
-
-
-# ============================================================
-# Top stacked language bar
-# ============================================================
-
-BAR_X = 12
-BAR_Y = 8
-BAR_WIDTH = SVG_WIDTH - 24
-BAR_HEIGHT = 8
-BAR_RADIUS = 4
 
 current_x = BAR_X
 
-for index, (language, byte_count) in enumerate(languages):
+
+for index, (language, byte_count) in enumerate(
+    languages
+):
 
     percentage = (
         byte_count / total * 100
@@ -387,23 +465,31 @@ for index, (language, byte_count) in enumerate(languages):
         else 0
     )
 
-    width = BAR_WIDTH * percentage / 100
+    width = (
+        BAR_WIDTH * percentage / 100
+    )
+
+    if width <= 0:
+        continue
 
     color = LANGUAGE_COLORS.get(
         language.lower(),
         "#8b949e"
     )
 
-    if width <= 0:
-        continue
-
     is_first = index == 0
     is_last = index == len(languages) - 1
 
     r = BAR_RADIUS
 
+
+    # --------------------------------------------------------
+    # First segment
+    # Round ONLY the left side
+    # --------------------------------------------------------
+
     if is_first:
-        # Round ONLY the left side
+
         svg.append(
             f'''
             <path
@@ -412,9 +498,13 @@ for index, (language, byte_count) in enumerate(languages):
                     H {current_x + width:.2f}
                     V {BAR_Y + BAR_HEIGHT}
                     H {current_x + r:.2f}
-                    A {r} {r} 0 0 1 {current_x:.2f} {BAR_Y + BAR_HEIGHT - r:.2f}
+                    A {r} {r} 0 0 1
+                      {current_x:.2f}
+                      {BAR_Y + BAR_HEIGHT - r:.2f}
                     V {BAR_Y + r:.2f}
-                    A {r} {r} 0 0 1 {current_x + r:.2f} {BAR_Y}
+                    A {r} {r} 0 0 1
+                      {current_x + r:.2f}
+                      {BAR_Y}
                     Z
                 "
                 fill="{color}"
@@ -422,17 +512,27 @@ for index, (language, byte_count) in enumerate(languages):
             '''
         )
 
+
+    # --------------------------------------------------------
+    # Last segment
+    # Round ONLY the right side
+    # --------------------------------------------------------
+
     elif is_last:
-        # Round ONLY the right side
+
         svg.append(
             f'''
             <path
                 d="
                     M {current_x:.2f} {BAR_Y}
                     H {current_x + width - r:.2f}
-                    A {r} {r} 0 0 1 {current_x + width:.2f} {BAR_Y + r:.2f}
+                    A {r} {r} 0 0 1
+                      {current_x + width:.2f}
+                      {BAR_Y + r:.2f}
                     V {BAR_Y + BAR_HEIGHT - r:.2f}
-                    A {r} {r} 0 0 1 {current_x + width - r:.2f} {BAR_Y + BAR_HEIGHT:.2f}
+                    A {r} {r} 0 0 1
+                      {current_x + width - r:.2f}
+                      {BAR_Y + BAR_HEIGHT:.2f}
                     H {current_x:.2f}
                     Z
                 "
@@ -441,8 +541,14 @@ for index, (language, byte_count) in enumerate(languages):
             '''
         )
 
+
+    # --------------------------------------------------------
+    # Middle segments
+    # Completely square
+    # --------------------------------------------------------
+
     else:
-        # Middle segments remain completely square
+
         svg.append(
             f'''
             <rect
@@ -455,17 +561,26 @@ for index, (language, byte_count) in enumerate(languages):
             '''
         )
 
+
     current_x += width
 
+
 # ============================================================
-# Heading
+# Most used languages title
 # ============================================================
+
+TITLE_Y = (
+    BAR_Y
+    + BAR_HEIGHT
+    + GRAPH_GAP
+    + 14
+)
 
 svg.append(
     f'''
     <text
         x="{SVG_WIDTH / 2}"
-        y="29"
+        y="{TITLE_Y}"
         text-anchor="middle"
         class="title"
         fill="{TITLE}">
@@ -479,7 +594,15 @@ svg.append(
 # Language grid
 # ============================================================
 
-for index, (language, byte_count) in enumerate(languages):
+GRID_Y = (
+    TITLE_Y
+    + 20
+)
+
+
+for index, (language, byte_count) in enumerate(
+    languages
+):
 
     percentage = (
         byte_count / total * 100
@@ -492,10 +615,15 @@ for index, (language, byte_count) in enumerate(languages):
 
     x = (
         PADDING_X
-        + column * (COLUMN_WIDTH + COLUMN_GAP)
+        + column * (
+            COLUMN_WIDTH + COLUMN_GAP
+        )
     )
 
-    y = HEADER_HEIGHT + row * ROW_HEIGHT
+    y = (
+        GRID_Y
+        + row * ROW_HEIGHT
+    )
 
     color = LANGUAGE_COLORS.get(
         language.lower(),
@@ -504,7 +632,7 @@ for index, (language, byte_count) in enumerate(languages):
 
 
     # --------------------------------------------------------
-    # Colored dot
+    # Language dot
     # --------------------------------------------------------
 
     svg.append(
@@ -543,11 +671,11 @@ for index, (language, byte_count) in enumerate(languages):
     svg.append(
         f'''
         <text
-            x="{x + 145}"
+            x="{x + 165}"
             y="{y + 9}"
             class="value"
             fill="{MUTED}">
-            {format_bytes_svg(byte_count)}
+            {format_bytes(byte_count)}
         </text>
         '''
     )
@@ -571,6 +699,10 @@ for index, (language, byte_count) in enumerate(languages):
     )
 
 
+# ============================================================
+# Finish SVG
+# ============================================================
+
 svg.append("</svg>")
 
 
@@ -578,16 +710,13 @@ svg.append("</svg>")
 # Write SVG
 # ============================================================
 
-SVG_FILE = os.environ.get(
-    "SVG_FILE",
-    "language-metrics.svg"
-)
-
 with open(
     SVG_FILE,
     "w",
     encoding="utf-8"
 ) as f:
+
     f.write("\n".join(svg))
+
 
 print(f"Generated: {SVG_FILE}")
