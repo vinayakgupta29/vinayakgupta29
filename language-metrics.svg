@@ -1,0 +1,517 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="576" height="173" viewBox="0 0 576 173">
+
+<style>
+
+.title {
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Helvetica,
+        Arial,
+        sans-serif;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.language {
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Helvetica,
+        Arial,
+        sans-serif;
+
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.value {
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Helvetica,
+        Arial,
+        sans-serif;
+
+    font-size: 12px;
+}
+
+</style>
+
+<rect width="100%" height="100%" fill="#000000"/>
+
+            <path
+                d="
+                    M 16.00 8
+                    H 295.65
+                    V 16
+                    H 16.00
+                    A 4 4 0 0 1 12.00 12.00
+                    V 12.00
+                    A 4 4 0 0 1 16.00 8
+                    Z
+                "
+                fill="#8b949e"
+            />
+            
+
+            <rect
+                x="295.65"
+                y="8"
+                width="114.39"
+                height="8"
+                fill="#f34b7d"
+            />
+            
+
+            <rect
+                x="410.04"
+                y="8"
+                width="50.35"
+                height="8"
+                fill="#00B4AB"
+            />
+            
+
+            <rect
+                x="460.39"
+                y="8"
+                width="21.23"
+                height="8"
+                fill="#f1e05a"
+            />
+            
+
+            <rect
+                x="481.61"
+                y="8"
+                width="20.07"
+                height="8"
+                fill="#dea584"
+            />
+            
+
+            <rect
+                x="501.69"
+                y="8"
+                width="15.94"
+                height="8"
+                fill="#00ADD8"
+            />
+            
+
+            <rect
+                x="517.63"
+                y="8"
+                width="12.17"
+                height="8"
+                fill="#3572A5"
+            />
+            
+
+            <rect
+                x="529.80"
+                y="8"
+                width="11.94"
+                height="8"
+                fill="#8b949e"
+            />
+            
+
+            <rect
+                x="541.74"
+                y="8"
+                width="11.22"
+                height="8"
+                fill="#ec915c"
+            />
+            
+
+            <path
+                d="
+                    M 552.96 8
+                    H 560.00
+                    A 4 4 0 0 1 564.00 12.00
+                    V 12.00
+                    A 4 4 0 0 1 560.00 16.00
+                    H 552.96
+                    Z
+                "
+                fill="#44a51c"
+            />
+            
+
+    <text
+        x="288.0"
+        y="29"
+        text-anchor="middle"
+        class="title"
+        fill="#0099ff">
+        Most used languages
+    </text>
+    
+
+        <circle
+            cx="17"
+            cy="55"
+            r="4"
+            fill="#8b949e"
+        />
+        
+
+        <text
+            x="27"
+            y="59"
+            class="language"
+            fill="#c9d1d9">
+            HTML
+        </text>
+        
+
+        <text
+            x="157"
+            y="59"
+            class="value"
+            fill="#8b949e">
+            2.43 MB
+        </text>
+        
+
+        <text
+            x="282"
+            y="59"
+            text-anchor="end"
+            class="value"
+            fill="#8b949e">
+            51.39%
+        </text>
+        
+
+        <circle
+            cx="299"
+            cy="55"
+            r="4"
+            fill="#f34b7d"
+        />
+        
+
+        <text
+            x="309"
+            y="59"
+            class="language"
+            fill="#c9d1d9">
+            C++
+        </text>
+        
+
+        <text
+            x="439"
+            y="59"
+            class="value"
+            fill="#8b949e">
+            1004 KB
+        </text>
+        
+
+        <text
+            x="564"
+            y="59"
+            text-anchor="end"
+            class="value"
+            fill="#8b949e">
+            20.72%
+        </text>
+        
+
+        <circle
+            cx="17"
+            cy="78"
+            r="4"
+            fill="#00B4AB"
+        />
+        
+
+        <text
+            x="27"
+            y="82"
+            class="language"
+            fill="#c9d1d9">
+            Dart
+        </text>
+        
+
+        <text
+            x="157"
+            y="82"
+            class="value"
+            fill="#8b949e">
+            442 KB
+        </text>
+        
+
+        <text
+            x="282"
+            y="82"
+            text-anchor="end"
+            class="value"
+            fill="#8b949e">
+            9.12%
+        </text>
+        
+
+        <circle
+            cx="299"
+            cy="78"
+            r="4"
+            fill="#f1e05a"
+        />
+        
+
+        <text
+            x="309"
+            y="82"
+            class="language"
+            fill="#c9d1d9">
+            JavaScript
+        </text>
+        
+
+        <text
+            x="439"
+            y="82"
+            class="value"
+            fill="#8b949e">
+            186 KB
+        </text>
+        
+
+        <text
+            x="564"
+            y="82"
+            text-anchor="end"
+            class="value"
+            fill="#8b949e">
+            3.85%
+        </text>
+        
+
+        <circle
+            cx="17"
+            cy="101"
+            r="4"
+            fill="#dea584"
+        />
+        
+
+        <text
+            x="27"
+            y="105"
+            class="language"
+            fill="#c9d1d9">
+            Rust
+        </text>
+        
+
+        <text
+            x="157"
+            y="105"
+            class="value"
+            fill="#8b949e">
+            176 KB
+        </text>
+        
+
+        <text
+            x="282"
+            y="105"
+            text-anchor="end"
+            class="value"
+            fill="#8b949e">
+            3.64%
+        </text>
+        
+
+        <circle
+            cx="299"
+            cy="101"
+            r="4"
+            fill="#00ADD8"
+        />
+        
+
+        <text
+            x="309"
+            y="105"
+            class="language"
+            fill="#c9d1d9">
+            Go
+        </text>
+        
+
+        <text
+            x="439"
+            y="105"
+            class="value"
+            fill="#8b949e">
+            140 KB
+        </text>
+        
+
+        <text
+            x="564"
+            y="105"
+            text-anchor="end"
+            class="value"
+            fill="#8b949e">
+            2.89%
+        </text>
+        
+
+        <circle
+            cx="17"
+            cy="124"
+            r="4"
+            fill="#3572A5"
+        />
+        
+
+        <text
+            x="27"
+            y="128"
+            class="language"
+            fill="#c9d1d9">
+            Python
+        </text>
+        
+
+        <text
+            x="157"
+            y="128"
+            class="value"
+            fill="#8b949e">
+            107 KB
+        </text>
+        
+
+        <text
+            x="282"
+            y="128"
+            text-anchor="end"
+            class="value"
+            fill="#8b949e">
+            2.20%
+        </text>
+        
+
+        <circle
+            cx="299"
+            cy="124"
+            r="4"
+            fill="#8b949e"
+        />
+        
+
+        <text
+            x="309"
+            y="128"
+            class="language"
+            fill="#c9d1d9">
+            CSS
+        </text>
+        
+
+        <text
+            x="439"
+            y="128"
+            class="value"
+            fill="#8b949e">
+            105 KB
+        </text>
+        
+
+        <text
+            x="564"
+            y="128"
+            text-anchor="end"
+            class="value"
+            fill="#8b949e">
+            2.16%
+        </text>
+        
+
+        <circle
+            cx="17"
+            cy="147"
+            r="4"
+            fill="#ec915c"
+        />
+        
+
+        <text
+            x="27"
+            y="151"
+            class="language"
+            fill="#c9d1d9">
+            Zig
+        </text>
+        
+
+        <text
+            x="157"
+            y="151"
+            class="value"
+            fill="#8b949e">
+            98 KB
+        </text>
+        
+
+        <text
+            x="282"
+            y="151"
+            text-anchor="end"
+            class="value"
+            fill="#8b949e">
+            2.03%
+        </text>
+        
+
+        <circle
+            cx="299"
+            cy="147"
+            r="4"
+            fill="#44a51c"
+        />
+        
+
+        <text
+            x="309"
+            y="151"
+            class="language"
+            fill="#c9d1d9">
+            QML
+        </text>
+        
+
+        <text
+            x="439"
+            y="151"
+            class="value"
+            fill="#8b949e">
+            97 KB
+        </text>
+        
+
+        <text
+            x="564"
+            y="151"
+            text-anchor="end"
+            class="value"
+            fill="#8b949e">
+            2.00%
+        </text>
+        
+</svg>
