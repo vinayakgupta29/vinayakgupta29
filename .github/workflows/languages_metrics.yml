@@ -30,7 +30,7 @@ jobs:
           STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
 
           LANGUAGE_LIMIT: 10
-          LANGUAGES_IGNORE: HTML,CSS
+          LANGUAGES_IGNORE: html, css, cmake, shell, qml, ocaml
 
           SVG_FILE: language-metrics.svg
 

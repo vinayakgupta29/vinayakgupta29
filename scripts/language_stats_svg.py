@@ -256,7 +256,7 @@ COLUMNS = 2
 COLUMN_WIDTH = 270
 COLUMN_GAP = 12
 
-HEADER_HEIGHT = 50
+HEADER_HEIGHT = 65
 PADDING_X = 12
 
 ROWS = (len(languages) + COLUMNS - 1) // COLUMNS
@@ -362,9 +362,9 @@ svg.append("""
 # Background
 # ============================================================
 
-svg.append(
-    f'<rect width="100%" height="100%" fill="{BACKGROUND}"/>'
-)
+# svg.append(
+#     f'<rect width="100%" height="100%" fill="{BACKGROUND}"/>'
+# )
 
 
 # ============================================================
