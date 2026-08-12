@@ -1,57 +1,90 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="576" height="188" viewBox="0 0 576 188">
 
-<style>
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="576"
+        height="207"
+        viewBox="0 0 576 207">
+    
 
-.title {
-    font-family:
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Helvetica,
-        Arial,
-        sans-serif;
+    <style>
 
-    font-size: 16px;
-    font-weight: 600;
-}
+    .language-count {
+        font-family:
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Helvetica,
+            Arial,
+            sans-serif;
 
-.language {
-    font-family:
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Helvetica,
-        Arial,
-        sans-serif;
+        font-size: 14px;
+        fill: #0099ff;
+        font-weight: 600;
+    }
 
-    font-size: 13px;
-    font-weight: 600;
-}
+    .title {
+        font-family:
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Helvetica,
+            Arial,
+            sans-serif;
 
-.value {
-    font-family:
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Helvetica,
-        Arial,
-        sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+    }
 
-    font-size: 12px;
-}
+    .language {
+        font-family:
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Helvetica,
+            Arial,
+            sans-serif;
 
-</style>
+        font-size: 13px;
+        font-weight: 600;
+    }
 
+    .value {
+        font-family:
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Helvetica,
+            Arial,
+            sans-serif;
+
+        font-size: 12px;
+    }
+
+    </style>
+    
+
+    <text
+        x="12"
+        y="23"
+        class="language-count"
+        fill="#c9d1d9">
+        28 languages
+    </text>
+    
 
             <path
                 d="
-                    M 16.00 8
-                    H 251.14
-                    V 16
+                    M 16.00 41
+                    H 250.89
+                    V 49
                     H 16.00
-                    A 4 4 0 0 1 12.00 12.00
-                    V 12.00
-                    A 4 4 0 0 1 16.00 8
+                    A 4 4 0 0 1
+                      12.00
+                      45.00
+                    V 45.00
+                    A 4 4 0 0 1
+                      16.00
+                      41
                     Z
                 "
                 fill="#f34b7d"
@@ -59,72 +92,72 @@
             
 
             <rect
-                x="251.14"
-                y="8"
-                width="105.25"
+                x="250.89"
+                y="41"
+                width="105.14"
                 height="8"
                 fill="#00B4AB"
             />
             
 
             <rect
-                x="356.39"
-                y="8"
-                width="44.37"
+                x="356.04"
+                y="41"
+                width="44.33"
                 height="8"
                 fill="#f1e05a"
             />
             
 
             <rect
-                x="400.76"
-                y="8"
-                width="41.96"
+                x="400.36"
+                y="41"
+                width="41.92"
                 height="8"
                 fill="#dea584"
             />
             
 
             <rect
-                x="442.72"
-                y="8"
-                width="33.33"
+                x="442.28"
+                y="41"
+                width="33.29"
                 height="8"
                 fill="#00ADD8"
             />
             
 
             <rect
-                x="476.05"
-                y="8"
-                width="25.44"
+                x="475.57"
+                y="41"
+                width="25.98"
                 height="8"
                 fill="#3572A5"
             />
             
 
             <rect
-                x="501.49"
-                y="8"
-                width="23.45"
+                x="501.55"
+                y="41"
+                width="23.43"
                 height="8"
                 fill="#ec915c"
             />
             
 
             <rect
-                x="524.94"
-                y="8"
-                width="19.42"
+                x="524.98"
+                y="41"
+                width="19.40"
                 height="8"
                 fill="#3178c6"
             />
             
 
             <rect
-                x="544.36"
-                y="8"
-                width="11.18"
+                x="544.38"
+                y="41"
+                width="11.17"
                 height="8"
                 fill="#000080"
             />
@@ -132,12 +165,16 @@
 
             <path
                 d="
-                    M 555.54 8
+                    M 555.55 41
                     H 560.00
-                    A 4 4 0 0 1 564.00 12.00
-                    V 12.00
-                    A 4 4 0 0 1 560.00 16.00
-                    H 555.54
+                    A 4 4 0 0 1
+                      564.00
+                      45.00
+                    V 45.00
+                    A 4 4 0 0 1
+                      560.00
+                      49.00
+                    H 555.55
                     Z
                 "
                 fill="#555555"
@@ -146,7 +183,7 @@
 
     <text
         x="288.0"
-        y="29"
+        y="73"
         text-anchor="middle"
         class="title"
         fill="#0099ff">
@@ -156,7 +193,7 @@
 
         <circle
             cx="17"
-            cy="70"
+            cy="98"
             r="4"
             fill="#f34b7d"
         />
@@ -164,7 +201,7 @@
 
         <text
             x="27"
-            y="74"
+            y="102"
             class="language"
             fill="#c9d1d9">
             C++
@@ -172,27 +209,27 @@
         
 
         <text
-            x="157"
-            y="74"
+            x="177"
+            y="102"
             class="value"
             fill="#8b949e">
-            1004 KB
+            1003.8 KB
         </text>
         
 
         <text
             x="282"
-            y="74"
+            y="102"
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            43.32%
+            43.28%
         </text>
         
 
         <circle
             cx="299"
-            cy="70"
+            cy="98"
             r="4"
             fill="#00B4AB"
         />
@@ -200,7 +237,7 @@
 
         <text
             x="309"
-            y="74"
+            y="102"
             class="language"
             fill="#c9d1d9">
             Dart
@@ -208,27 +245,27 @@
         
 
         <text
-            x="439"
-            y="74"
+            x="459"
+            y="102"
             class="value"
             fill="#8b949e">
-            442 KB
+            441.8 KB
         </text>
         
 
         <text
             x="564"
-            y="74"
+            y="102"
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            19.07%
+            19.05%
         </text>
         
 
         <circle
             cx="17"
-            cy="93"
+            cy="121"
             r="4"
             fill="#f1e05a"
         />
@@ -236,7 +273,7 @@
 
         <text
             x="27"
-            y="97"
+            y="125"
             class="language"
             fill="#c9d1d9">
             JavaScript
@@ -244,27 +281,27 @@
         
 
         <text
-            x="157"
-            y="97"
+            x="177"
+            y="125"
             class="value"
             fill="#8b949e">
-            186 KB
+            186.3 KB
         </text>
         
 
         <text
             x="282"
-            y="97"
+            y="125"
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            8.04%
+            8.03%
         </text>
         
 
         <circle
             cx="299"
-            cy="93"
+            cy="121"
             r="4"
             fill="#dea584"
         />
@@ -272,7 +309,7 @@
 
         <text
             x="309"
-            y="97"
+            y="125"
             class="language"
             fill="#c9d1d9">
             Rust
@@ -280,27 +317,27 @@
         
 
         <text
-            x="439"
-            y="97"
+            x="459"
+            y="125"
             class="value"
             fill="#8b949e">
-            176 KB
+            176.1 KB
         </text>
         
 
         <text
             x="564"
-            y="97"
+            y="125"
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            7.60%
+            7.59%
         </text>
         
 
         <circle
             cx="17"
-            cy="116"
+            cy="144"
             r="4"
             fill="#00ADD8"
         />
@@ -308,7 +345,7 @@
 
         <text
             x="27"
-            y="120"
+            y="148"
             class="language"
             fill="#c9d1d9">
             Go
@@ -316,27 +353,27 @@
         
 
         <text
-            x="157"
-            y="120"
+            x="177"
+            y="148"
             class="value"
             fill="#8b949e">
-            140 KB
+            139.9 KB
         </text>
         
 
         <text
             x="282"
-            y="120"
+            y="148"
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            6.04%
+            6.03%
         </text>
         
 
         <circle
             cx="299"
-            cy="116"
+            cy="144"
             r="4"
             fill="#3572A5"
         />
@@ -344,7 +381,7 @@
 
         <text
             x="309"
-            y="120"
+            y="148"
             class="language"
             fill="#c9d1d9">
             Python
@@ -352,27 +389,27 @@
         
 
         <text
-            x="439"
-            y="120"
+            x="459"
+            y="148"
             class="value"
             fill="#8b949e">
-            107 KB
+            109.2 KB
         </text>
         
 
         <text
             x="564"
-            y="120"
+            y="148"
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            4.61%
+            4.71%
         </text>
         
 
         <circle
             cx="17"
-            cy="139"
+            cy="167"
             r="4"
             fill="#ec915c"
         />
@@ -380,7 +417,7 @@
 
         <text
             x="27"
-            y="143"
+            y="171"
             class="language"
             fill="#c9d1d9">
             Zig
@@ -388,27 +425,27 @@
         
 
         <text
-            x="157"
-            y="143"
+            x="177"
+            y="171"
             class="value"
             fill="#8b949e">
-            98 KB
+            98.4 KB
         </text>
         
 
         <text
             x="282"
-            y="143"
+            y="171"
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            4.25%
+            4.24%
         </text>
         
 
         <circle
             cx="299"
-            cy="139"
+            cy="167"
             r="4"
             fill="#3178c6"
         />
@@ -416,7 +453,7 @@
 
         <text
             x="309"
-            y="143"
+            y="171"
             class="language"
             fill="#c9d1d9">
             TypeScript
@@ -424,27 +461,27 @@
         
 
         <text
-            x="439"
-            y="143"
+            x="459"
+            y="171"
             class="value"
             fill="#8b949e">
-            82 KB
+            81.5 KB
         </text>
         
 
         <text
             x="564"
-            y="143"
+            y="171"
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            3.52%
+            3.51%
         </text>
         
 
         <circle
             cx="17"
-            cy="162"
+            cy="190"
             r="4"
             fill="#000080"
         />
@@ -452,7 +489,7 @@
 
         <text
             x="27"
-            y="166"
+            y="194"
             class="language"
             fill="#c9d1d9">
             Lua
@@ -460,27 +497,27 @@
         
 
         <text
-            x="157"
-            y="166"
+            x="177"
+            y="194"
             class="value"
             fill="#8b949e">
-            47 KB
+            46.9 KB
         </text>
         
 
         <text
             x="282"
-            y="166"
+            y="194"
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            2.03%
+            2.02%
         </text>
         
 
         <circle
             cx="299"
-            cy="162"
+            cy="190"
             r="4"
             fill="#555555"
         />
@@ -488,7 +525,7 @@
 
         <text
             x="309"
-            y="166"
+            y="194"
             class="language"
             fill="#c9d1d9">
             C
@@ -496,17 +533,17 @@
         
 
         <text
-            x="439"
-            y="166"
+            x="459"
+            y="194"
             class="value"
             fill="#8b949e">
-            36 KB
+            35.5 KB
         </text>
         
 
         <text
             x="564"
-            y="166"
+            y="194"
             text-anchor="end"
             class="value"
             fill="#8b949e">
