@@ -68,14 +68,14 @@
         y="23"
         class="language-count"
         fill="#c9d1d9">
-        29 languages
+        30 languages
     </text>
     
 
             <path
                 d="
                     M 16.00 41
-                    H 244.09
+                    H 241.50
                     V 49
                     H 16.00
                     A 4 4 0 0 1
@@ -92,80 +92,80 @@
             
 
             <rect
-                x="244.09"
+                x="241.50"
                 y="41"
-                width="102.15"
+                width="101.01"
                 height="8"
                 fill="#00B4AB"
             />
             
 
             <rect
-                x="346.23"
+                x="342.50"
                 y="41"
-                width="56.18"
+                width="55.55"
                 height="8"
                 fill="#dea584"
             />
             
 
             <rect
-                x="402.41"
+                x="398.05"
                 y="41"
-                width="43.08"
+                width="42.60"
                 height="8"
                 fill="#f1e05a"
             />
             
 
             <rect
-                x="445.49"
+                x="440.65"
                 y="41"
-                width="32.34"
+                width="31.98"
                 height="8"
                 fill="#00ADD8"
             />
             
 
             <rect
-                x="477.83"
+                x="472.64"
                 y="41"
-                width="25.24"
+                width="24.96"
                 height="8"
                 fill="#3572A5"
             />
             
 
             <rect
-                x="503.07"
+                x="497.59"
                 y="41"
-                width="22.76"
+                width="22.51"
                 height="8"
                 fill="#ec915c"
             />
             
 
             <rect
-                x="525.83"
+                x="520.10"
                 y="41"
-                width="18.85"
+                width="18.64"
                 height="8"
                 fill="#3178c6"
             />
             
 
             <rect
-                x="544.68"
+                x="538.74"
                 y="41"
-                width="11.11"
+                width="14.28"
                 height="8"
-                fill="#000080"
+                fill="#8b949e"
             />
             
 
             <path
                 d="
-                    M 555.79 41
+                    M 553.02 41
                     H 560.00
                     A 4 4 0 0 1
                       564.00
@@ -174,10 +174,10 @@
                     A 4 4 0 0 1
                       560.00
                       49.00
-                    H 555.79
+                    H 553.02
                     Z
                 "
-                fill="#555555"
+                fill="#000080"
             />
             
 
@@ -223,7 +223,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            42.04%
+            41.58%
         </text>
         
 
@@ -259,7 +259,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            18.50%
+            18.30%
         </text>
         
 
@@ -295,7 +295,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            10.18%
+            10.06%
         </text>
         
 
@@ -331,7 +331,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            7.80%
+            7.72%
         </text>
         
 
@@ -367,7 +367,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            5.86%
+            5.79%
         </text>
         
 
@@ -403,7 +403,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            4.57%
+            4.52%
         </text>
         
 
@@ -439,7 +439,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            4.12%
+            4.08%
         </text>
         
 
@@ -475,7 +475,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            3.41%
+            3.38%
         </text>
         
 
@@ -483,7 +483,7 @@
             cx="17"
             cy="190"
             r="4"
-            fill="#000080"
+            fill="#8b949e"
         />
         
 
@@ -492,7 +492,7 @@
             y="194"
             class="language"
             fill="#c9d1d9">
-            Lua
+            TeX
         </text>
         
 
@@ -501,7 +501,7 @@
             y="194"
             class="value"
             fill="#8b949e">
-            48.0 KB
+            62.4 KB
         </text>
         
 
@@ -511,7 +511,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            2.01%
+            2.59%
         </text>
         
 
@@ -519,7 +519,7 @@
             cx="299"
             cy="190"
             r="4"
-            fill="#555555"
+            fill="#000080"
         />
         
 
@@ -528,7 +528,7 @@
             y="194"
             class="language"
             fill="#c9d1d9">
-            C
+            Lua
         </text>
         
 
@@ -537,7 +537,7 @@
             y="194"
             class="value"
             fill="#8b949e">
-            35.5 KB
+            48.0 KB
         </text>
         
 
@@ -547,7 +547,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            1.49%
+            1.99%
         </text>
         
 </svg>
