@@ -75,7 +75,7 @@
             <path
                 d="
                     M 16.00 41
-                    H 230.18
+                    H 221.56
                     V 49
                     H 16.00
                     A 4 4 0 0 1
@@ -92,72 +92,72 @@
             
 
             <rect
-                x="230.18"
+                x="221.56"
                 y="41"
-                width="96.02"
+                width="92.23"
                 height="8"
                 fill="#00B4AB"
             />
             
 
             <rect
-                x="326.20"
+                x="313.79"
                 y="41"
-                width="66.84"
+                width="67.51"
                 height="8"
                 fill="#dea584"
             />
             
 
             <rect
-                x="393.04"
+                x="381.30"
                 y="41"
-                width="41.84"
-                height="8"
-                fill="#f1e05a"
-            />
-            
-
-            <rect
-                x="434.88"
-                y="41"
-                width="30.41"
+                width="47.00"
                 height="8"
                 fill="#00ADD8"
             />
             
 
             <rect
-                x="465.28"
+                x="428.31"
                 y="41"
-                width="29.98"
+                width="40.19"
+                height="8"
+                fill="#f1e05a"
+            />
+            
+
+            <rect
+                x="468.50"
+                y="41"
+                width="28.79"
                 height="8"
                 fill="#3572A5"
             />
             
 
             <rect
-                x="495.26"
+                x="497.29"
                 y="41"
-                width="21.40"
+                width="20.55"
                 height="8"
                 fill="#ec915c"
             />
             
 
             <rect
-                x="516.66"
+                x="517.84"
                 y="41"
-                width="19.18"
+                width="18.43"
                 height="8"
                 fill="#8b949e"
             />
             
 
             <rect
-                x="535.84"
+                x="536.27"
                 y="41"
-                width="17.72"
+                width="17.70"
                 height="8"
                 fill="#3178c6"
             />
@@ -165,7 +165,7 @@
 
             <path
                 d="
-                    M 553.56 41
+                    M 553.97 41
                     H 560.00
                     A 4 4 0 0 1
                       564.00
@@ -174,7 +174,7 @@
                     A 4 4 0 0 1
                       560.00
                       49.00
-                    H 553.56
+                    H 553.97
                     Z
                 "
                 fill="#000080"
@@ -223,7 +223,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            39.52%
+            37.96%
         </text>
         
 
@@ -259,7 +259,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            17.40%
+            16.71%
         </text>
         
 
@@ -285,7 +285,7 @@
             y="125"
             class="value"
             fill="#8b949e">
-            307.5 KB
+            323.4 KB
         </text>
         
 
@@ -295,7 +295,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            12.11%
+            12.23%
         </text>
         
 
@@ -303,7 +303,7 @@
             cx="299"
             cy="121"
             r="4"
-            fill="#f1e05a"
+            fill="#00ADD8"
         />
         
 
@@ -312,7 +312,7 @@
             y="125"
             class="language"
             fill="#c9d1d9">
-            JavaScript
+            Go
         </text>
         
 
@@ -321,7 +321,7 @@
             y="125"
             class="value"
             fill="#8b949e">
-            192.5 KB
+            225.1 KB
         </text>
         
 
@@ -331,7 +331,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            7.58%
+            8.52%
         </text>
         
 
@@ -339,7 +339,7 @@
             cx="17"
             cy="144"
             r="4"
-            fill="#00ADD8"
+            fill="#f1e05a"
         />
         
 
@@ -348,7 +348,7 @@
             y="148"
             class="language"
             fill="#c9d1d9">
-            Go
+            JavaScript
         </text>
         
 
@@ -357,7 +357,7 @@
             y="148"
             class="value"
             fill="#8b949e">
-            139.9 KB
+            192.5 KB
         </text>
         
 
@@ -367,7 +367,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            5.51%
+            7.28%
         </text>
         
 
@@ -403,7 +403,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            5.43%
+            5.22%
         </text>
         
 
@@ -439,7 +439,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            3.88%
+            3.72%
         </text>
         
 
@@ -465,7 +465,7 @@
             y="171"
             class="value"
             fill="#8b949e">
-            88.2 KB
+            88.3 KB
         </text>
         
 
@@ -475,7 +475,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            3.47%
+            3.34%
         </text>
         
 
@@ -501,7 +501,7 @@
             y="194"
             class="value"
             fill="#8b949e">
-            81.5 KB
+            84.8 KB
         </text>
         
 
@@ -547,7 +547,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            1.89%
+            1.82%
         </text>
         
 </svg>
