@@ -58,7 +58,7 @@ Software Engineer with ~3 years of experience building backend systems, distribu
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-black?style=for-the-badge\&logo=rust)
+![Rust](https://img.shields.io/badge/Rust-F05023?style=for-the-badge\&logo=rust)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge\&logo=cplusplus)
 
 ### Backend & Databases
