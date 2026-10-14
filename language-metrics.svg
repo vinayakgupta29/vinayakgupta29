@@ -75,7 +75,7 @@
             <path
                 d="
                     M 16.00 41
-                    H 221.56
+                    H 221.50
                     V 49
                     H 16.00
                     A 4 4 0 0 1
@@ -92,52 +92,52 @@
             
 
             <rect
-                x="221.56"
+                x="221.50"
                 y="41"
-                width="92.23"
+                width="92.20"
                 height="8"
                 fill="#00B4AB"
             />
             
 
             <rect
-                x="313.79"
+                x="313.70"
                 y="41"
-                width="67.52"
+                width="67.50"
                 height="8"
                 fill="#dea584"
             />
             
 
             <rect
-                x="381.31"
+                x="381.20"
                 y="41"
-                width="47.00"
+                width="46.99"
                 height="8"
                 fill="#00ADD8"
             />
             
 
             <rect
-                x="428.31"
+                x="428.19"
                 y="41"
-                width="40.19"
+                width="40.18"
                 height="8"
                 fill="#f1e05a"
             />
             
 
             <rect
-                x="468.50"
+                x="468.37"
                 y="41"
-                width="28.79"
+                width="28.95"
                 height="8"
                 fill="#3572A5"
             />
             
 
             <rect
-                x="497.30"
+                x="497.32"
                 y="41"
                 width="20.55"
                 height="8"
@@ -146,16 +146,16 @@
             
 
             <rect
-                x="517.85"
+                x="517.87"
                 y="41"
-                width="18.43"
+                width="18.42"
                 height="8"
                 fill="#8b949e"
             />
             
 
             <rect
-                x="536.28"
+                x="536.29"
                 y="41"
                 width="17.70"
                 height="8"
@@ -223,7 +223,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            37.96%
+            37.95%
         </text>
         
 
@@ -259,7 +259,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            16.71%
+            16.70%
         </text>
         
 
@@ -331,7 +331,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            8.52%
+            8.51%
         </text>
         
 
@@ -393,7 +393,7 @@
             y="148"
             class="value"
             fill="#8b949e">
-            137.9 KB
+            138.7 KB
         </text>
         
 
@@ -403,7 +403,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            5.22%
+            5.25%
         </text>
         
 
@@ -547,7 +547,7 @@
             text-anchor="end"
             class="value"
             fill="#8b949e">
-            1.82%
+            1.81%
         </text>
         
 </svg>
