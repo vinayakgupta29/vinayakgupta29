@@ -62,7 +62,7 @@ Icons use Simple Icons' SVG endpoint with brand colors instead of text-heavy Shi
 
 <p>
   <img alt="Docker" height="38" src="https://cdn.simpleicons.org/docker/2496ED">
-  <img alt="aws" height="38" src="./assets/aws-svgrepo-com.svg">
+  <img alt="aws" height="38" src="./assets/aws-svgrepo-com.png">
   <img alt="Git" height="38" src="https://cdn.simpleicons.org/git/F05032">
   <img alt="Linux" height="38" src="https://cdn.simpleicons.org/linux/FCC624">
 </p>
